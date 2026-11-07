@@ -1,0 +1,38 @@
+name: Elden Ring bug
+description: Something doesn't work in game (deaths, boss refills, falls, boss detection, stats).
+labels: [bug]
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: The game page in Git Gud Gym shows the module version and the game patch.
+      placeholder: "Git Gud Gym v0.3.1, module v0.3.0, game 1.12.0"
+    validations:
+      required: true
+  - type: input
+    id: boss
+    attributes:
+      label: Where / which boss?
+      placeholder: "Margit, Stormhill"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: gitgudgym.log
+      description: Press F8 in game where it went wrong, then click Log on the game page and paste the end of the file.
+      render: text
+    validations:
+      required: true
+  - type: checkboxes
+    id: offline
+    attributes:
+      label: Checks
+      options:
+        - label: I'm playing offline, without Easy Anti-Cheat.
+          required: true

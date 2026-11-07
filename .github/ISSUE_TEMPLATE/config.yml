@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: A problem with the app itself (library, installs, overlay)
+    url: https://github.com/Git-Gud-Gym/launcher/issues/new/choose
+    about: Report it on the launcher.
+  - name: Questions and ideas
+    url: https://github.com/Git-Gud-Gym/launcher/discussions
+    about: Ask in Discussions.
