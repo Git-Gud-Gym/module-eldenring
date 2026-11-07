@@ -52,8 +52,9 @@ Gud Gym as a dev build. See the SDK's
 
 ## Releasing
 
-Bump `version` in `module.json`, add a `## vX.Y.Z` section to `CHANGELOG.md`, then push the tag
-`vX.Y.Z`.
+1. Run the [in-game test plan](TESTING.md) and post the results in the release's verification issue.
+2. Bump `version` in `module.json` and add a `## vX.Y.Z` section to `CHANGELOG.md`.
+3. Push the tag `vX.Y.Z`.
 
 ## License
 
